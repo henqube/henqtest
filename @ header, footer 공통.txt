@@ -21,7 +21,7 @@
 		<br>
 		<br>	
 	</div>
-	<div>
+	<div style="text-align: center;">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5443140516420381"
 		crossorigin="anonymous"></script>
 		<!-- HENQ_TEST_300x250 -->
