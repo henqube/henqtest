@@ -70,7 +70,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {mouse_down:1};
+	props.labels = {mouse_down:2};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -81,12 +81,12 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(6));
 
 	// Layer_1
 	this.instance = new lib.img_btn_start();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:0.7383,scaleY:0.7383},2,cjs.Ease.cubicIn).to({scaleX:1,scaleY:1},4,cjs.Ease.cubicOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:0.7383,scaleY:0.7383},2,cjs.Ease.cubicIn).to({scaleX:1,scaleY:1},3,cjs.Ease.cubicOut).wait(1));
 
 	this._renderFirstFrame();
 
