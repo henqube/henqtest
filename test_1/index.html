@@ -9,20 +9,21 @@
 -->
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>index</title>
-<!-- write your code here -->
-<style>
-  #animation_container {
-	position:block;
-	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
-  }
-</style>
+	<meta charset="UTF-8">
+	<meta name="authoring-tool" content="Adobe_Animate_CC">
+	<meta name="viewport" content="width=device-width">
+	<title>index</title>
+	<!-- write your code here -->
+	<style>
+	  #animation_container {
+		position:block;
+		margin:auto;
+		left:0;right:0;
+		top:0;bottom:0;
+	  }
+	</style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="index.js?1674195356227"></script>
+<script src="index.js?1674196204428"></script>
 <script>
 // Global Scripts
 	this.addEventListener</script>
@@ -49,7 +50,7 @@ function handleComplete(evt,comp) {
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(false,'width',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.makeResponsive(true,'width',true,1,[canvas,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
@@ -57,14 +58,16 @@ function handleComplete(evt,comp) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:360px; height:640px">
-		<canvas id="canvas" width="360" height="640" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:360px; height:640px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:360px; height:540px">
+		<canvas id="canvas" width="360" height="540" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:360px; height:540px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>
 <footer>
-	<div>		
+	<div>
+		<br>
+		<br>	
 	</div>
 	<div>
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5443140516420381"

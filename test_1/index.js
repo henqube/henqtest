@@ -108,7 +108,7 @@ if (reversed == null) { reversed = false; }
 	// Layer_1
 	this.btn_start = new lib.btn_start();
 	this.btn_start.name = "btn_start";
-	this.btn_start.setTransform(4,201.1);
+	this.btn_start.setTransform(4,117.05);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("AiBCiIAAhTIBdAAIAAiIIhdAFIAAhTIB4gbIBRAAIAADxIA6AAIAABTg");
@@ -189,7 +189,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,360,640);
 lib.properties = {
 	id: '3ED423556D08ED49B392637DB9795D1D',
 	width: 360,
-	height: 640,
+	height: 540,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
